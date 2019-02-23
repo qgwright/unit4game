@@ -57,7 +57,7 @@ $(document).ready(function() {
       loser();
     }
   });
-  $("green").on("click", function() {
+  $(".green").on("click", function() {
     userTotal = userTotal + num2;
     console.log("New userTotal= " + userTotal);
     $("#finalTotal").text(userTotal);
@@ -67,7 +67,7 @@ $(document).ready(function() {
       loser();
     }
   });
-  $("purple").on("click", function() {
+  $(".purple").on("click", function() {
     userTotal = userTotal + num3;
     console.log("New userTotal= " + userTotal);
     $("#finalTotal").text(userTotal);
@@ -78,7 +78,7 @@ $(document).ready(function() {
       loser();
     }
   });
-  $("red").on("click", function() {
+  $(".red").on("click", function() {
     userTotal = userTotal + num4;
     console.log("New userTotal= " + userTotal);
     $("#finalTotal").text(userTotal);
